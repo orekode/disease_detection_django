@@ -19,8 +19,9 @@ pytz==2024.1
 six==1.16.0
 sqlparse==0.5.0
 sympy==1.12
-torch==2.3.1+cpu @ https://download.pytorch.org/whl/cpu
-torchvision==0.18.1+cpu @ https://download.pytorch.org/whl/cpu
+-f https://download.pytorch.org/whl/cpu
+torch==2.3.1+cpu 
+torchvision==0.18.1+cpu
 typing_extensions==4.12.2
 tzdata==2024.1
 Werkzeug==3.0.3
